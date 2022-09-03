@@ -1,0 +1,103 @@
+.listItem{
+    width: 225px;
+    height: 120px;
+    background-color: rgba(24,24,24,255);
+    margin-right: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+.listItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.listItem video{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.listItem .volume{
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    border: 1px solid #ffffff61;
+    border-radius: 50%;
+    padding: 5px 7px;
+    background-color: rgba(24,24,24,255);
+    opacity: 0.5;
+}
+.listItem .volume:hover{
+    border: 1px solid white;
+    opacity: 1;
+}
+@keyframes enlarge{
+    0% {width: 225px; height: 120px;}
+    100% {width: 325px; height: 300px;}
+}
+.listItem:hover{
+    width: 325px;
+    height: 350px;
+    position: absolute;
+    top: -115px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,0.07); 
+    box-shadow: 0px 0px 15px 0px rgba(255,255,255,0.07);
+    z-index: 999;
+}
+.listItem:hover img{
+    height: 140px;
+}
+.listItem .itemInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.listItem .itemInfo .icons{
+    display: flex;
+    margin-bottom: 10px;
+}
+.listItem .itemInfo .icons .icon{
+    border: 2px solid rgba(140,140,140,255);
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: rgba(34,34,34,255);
+}
+.listItem .itemInfo .icons .play{
+    border: 2px solid white;
+    background-color: white;
+    padding: 2px;
+}
+.listItem .itemInfo .icons .icon:hover{
+    border: 2px solid white;
+}
+.listItem .movieTitle{
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.listItem .itemInfo .itemInfoTop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.listItem .itemInfo .itemInfoTop .limit{
+    border: 1px solid gray;
+    padding: 1px 3px;
+    margin: 0 10px;
+}
+.listItem .itemInfo .desc{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+.listItem .itemInfo .genre{
+    font-size: 14px;
+    color: lightgray;
+}

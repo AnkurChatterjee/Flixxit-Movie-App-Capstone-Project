@@ -1,0 +1,132 @@
+.navbar{
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    background: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 50%);
+    transition: all ease 1s;
+}
+.navbar .container{
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left .logo{
+    margin-right: 40px;
+    color: red;
+    font-size: 32px;
+    font-weight: 700;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right img{
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.left span{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.right .icon{
+    margin: 0px 15px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.right .span{
+    cursor: pointer;
+}
+/*.right .profile .icon{
+    margin: 0px;
+}
+.profile .options{
+    display: none;
+    background-color: #0b0b0b;
+    border-radius: 5px;
+    position: absolute;
+    right: 80px;
+}
+.profile:hover .options{
+    display: flex;
+    flex-direction: column;
+}
+.profile .options:hover{
+    display: flex;
+    flex-direction: column;
+}
+.profile .icon:hover{
+    transform: rotate(180deg);
+    transition: all ease-in-out 0.5s;
+}
+.profile .options span{
+    padding: 10px;
+    cursor: pointer;
+}*/
+.profile{
+    margin-right: 25px;
+}
+.profile .pic{
+    display: flex;
+    align-items: center;
+}
+.profile .icon{
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.profile .dropdown{
+    display: none;
+}
+.profile:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 28px;
+    cursor: pointer;
+}
+.profile:hover .icon{
+    transform: rotate(180deg);
+}
+.profile .dropdown .options{
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    background-color: #141414f9;
+    padding: 15px 10px;
+    margin-top: -6px;
+}
+.profile .dropdown .options span{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.profile .dropdown .options span div{
+    margin-left: 10px;
+}
+.profile .dropdown .options span div:hover{
+    text-decoration: underline;
+}
+.profile .dropdown .options span .svg{
+    margin-right: 7px;
+}
+.profile .dropdown .options .seperate{
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}
+.profile .dropdown .options .last{
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+.scrolled{
+    background-color: #0b0b0b;
+    transition: all ease 0.2s;
+}

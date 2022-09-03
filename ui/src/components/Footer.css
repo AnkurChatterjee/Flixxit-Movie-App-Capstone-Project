@@ -1,0 +1,38 @@
+.footer{
+    background-color: #141414;
+    margin-top: 100px;
+    padding: 0px 200px;
+}
+.footer .icons{
+    margin-bottom: 15px;
+    display: flex;
+}
+.footer .icons .icon{
+    margin-right: 25px;
+}
+.footer .list{
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 15px;
+    color: rgba(140,140,140,255);
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer .box{
+    margin-top: 30px;
+}
+.footer .service{
+    margin-top: 50px;
+    color: rgba(140,140,140,255);
+    font-size: 12px;
+    border: 2px solid rgba(140,140,140,255);
+    padding: 5px;
+}
+.footer .copyright{
+    margin: 20px 0px;
+    color: rgba(140,140,140,255);
+    font-size: 10px;
+}

@@ -1,0 +1,129 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom, 
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,1) 100%
+        ),
+        url("https://www.okynemedialab.com/wp-content/uploads/2019/11/netflix-background-50-Black-1080x608.jpg");
+    background-size: cover;
+    position: relative;
+}
+.login .top .wrapper{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(235,5,14,255);
+    font-size: 60px;
+    font-weight: 900;
+}
+.login .top .wrapper span{
+    z-index: 2;
+    cursor: pointer;
+}
+.login .container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.login .container form{
+    width: 300px;
+    height: 500px;
+    padding: 30px 70px;
+    border-radius: 5px;
+    background-color: #0b0b0bd1;
+    display: flex;
+    flex-direction: column;
+}
+.login .container form .alert-warning{
+    background-color: orange;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.login .container form input{
+    height: 40px;
+    border-radius: 3px;
+    background-color: rgba(53,50,53,255);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    margin: 10px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.login .container form input::placeholder{
+    color: rgba(118,115,119,255);
+    font-weight: 500;
+}
+.login .container form button{
+    height: 48px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.login .container .checkHelp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(118,115,119,255);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.login .container .checkHelp p{
+    cursor: pointer;
+}
+.login .container .checkHelp .rememberCheck{
+    display: flex;
+    align-items: center;
+}
+.login .container .facebook{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+    margin-left: -3px;
+    cursor: pointer;
+}
+.login .container .facebook .facebookIcon{
+    z-index: 99;
+}
+.login .container .facebook .whiteBG{
+    width: 18px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    left: 9px;
+}
+.login .container .facebook span{
+    color: rgba(118,115,119,255);
+    margin-left: 5px;
+}
+.login .container p span{
+    color: rgba(118,115,119,255);
+}
+.login .container small{
+    color: rgba(118,115,119,255);
+}
+.login .container small b{
+    color: rgba(60,94,160,255);
+    cursor: pointer;
+}
+
+/*<img className="logo" src="https://th.bing.com/th/id/R.05c96bba4090acafe115aad47e66572d?rik=ejgwaTp6m0Dv6g&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f05%2fNetflix-Logo.png&ehk=gJbypm3nuRFxW%2fGn3WbaXOcTVq6kNgynGml%2fdXD79fM%3d&risl=&pid=ImgRaw&r=0" alt="Netflix" />*/
